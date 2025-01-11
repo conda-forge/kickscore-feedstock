@@ -20,6 +20,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - pytest-runner
+    - setuptools
   run:
     - python >={{ python_min }}
     - numba
