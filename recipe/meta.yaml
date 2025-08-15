@@ -1,5 +1,5 @@
 {% set name = "kickscore" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a2478196d824b26f81345e8669f3f8eb15eb8921c68ebab3e796dd17eec2a367
+  sha256: 08740b714c7c1d0edc856f81995720ab6161b5beb4d62732782605f3ac1d1d57
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
